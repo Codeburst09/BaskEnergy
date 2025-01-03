@@ -70,10 +70,10 @@ html, body {
     transform: rotate(360deg);
   }
 }
-.navbar {
+/* .navbar {
   background-color: #282c34;
   padding: 1rem;
-}
+} */
 
 .navbar-menu {
   list-style: none;
