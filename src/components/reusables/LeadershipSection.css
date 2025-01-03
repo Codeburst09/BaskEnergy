@@ -1,0 +1,19 @@
+.leadership-section {
+    padding: 40px;  /* Add padding to create spacing */
+    background-color: #F3D6A0;  /* Optional: Add a background color */
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 8px;
+  }
+  
+  .leadership-title {
+    font-size: 24px;
+    color: #d84900;
+    margin-bottom: 10px;
+  }
+  
+  .leadership-description {
+    font-size: 16px;
+    color: #333;
+  }
+  

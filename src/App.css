@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -14,15 +20,43 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: url('https://source.unsplash.com/1600x900/?solar,energy'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
 }
+
+.App-header h1 {
+  font-size: 48px;
+  margin-bottom: 1rem;
+}
+
+.App-header p {
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #ff3b3b;
+}
+
 
 .App-link {
   color: #61dafb;
@@ -36,3 +70,30 @@
     transform: rotate(360deg);
   }
 }
+.navbar {
+  background-color: #282c34;
+  padding: 1rem;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.navbar-menu li {
+  display: inline;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar-menu a:hover {
+  color: #61dafb;
+}
+

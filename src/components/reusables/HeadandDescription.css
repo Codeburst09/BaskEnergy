@@ -1,0 +1,22 @@
+/* VisionSection.css */
+.vision-section {
+    background-color: #F3D6A0;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border-left: 6px solid #f2b01e; */
+    border-radius: 8px;
+  }
+  
+  .vision-title {
+    font-size: 24px;
+    color: #d84900;
+    margin-bottom: 10px;
+  }
+  
+  .vision-description {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  

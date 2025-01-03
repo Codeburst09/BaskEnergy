@@ -1,0 +1,20 @@
+.info-section {
+    padding: 40px;
+    /* background-color: #fdf6d8; */
+    /* border-left: 6px solid #f2b01e; */
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  
+  .info-title {
+    font-size: 24px;
+    color: #d84900;
+    margin-bottom: 10px;
+  }
+  
+  .info-description {
+    font-size: 16px;
+    color: #333;
+    white-space: pre-line;  /* This ensures that the new lines in the description are preserved */
+  }
+  

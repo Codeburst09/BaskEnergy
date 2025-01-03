@@ -1,0 +1,137 @@
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: 2rem auto;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .image-container {
+    position: relative; /* Positioning context for absolute elements */
+    width: 100%; /* Adjust as necessary */
+    max-width: 600px; /* Example width */
+  }
+  
+  .image {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
+  .legend {
+    text-align: center; /* Center align the legend */
+    margin: 10px 0; /* Space around the legend */
+  }
+  
+  * {
+    box-sizing: border-box; /* Apply to all elements */
+}
+
+.placeholder {
+    position: absolute;
+    top: 55%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to the center */
+    backdrop-filter: blur(3px); /* Apply blur effect to the background */
+    background-color: transparent; /* Semi-transparent background */
+    padding: 20px; /* Adjusted padding */
+    border: 2px solid #EFBA58;
+    height: auto; /* Change to auto */
+    max-width: 90%; /* Limit width */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text */
+    font-size: 18px; /* Adjust font size as needed */
+    overflow: hidden; /* Prevent overflow */
+    font-family: 'Inter'; font-style: normal;  font-size: 64px;
+}
+
+.placeholder h1 {
+    color: #EDDD01;
+    font-size: medium;
+}
+
+.placeholder p {
+    color: #edede7;
+    font-size: medium;
+}
+@media (max-width: 768px) {
+  .placeholder p {
+    color: #edede7;
+    font-size: 0.5em;
+}
+.placeholder h1 {
+  color: #EDDD01;
+  font-size: 0.5em;
+}
+.placeholder button {
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 15px !important; /* Adjusted padding */
+  color: white;
+  max-width: 80%; /* Limit button width */
+  margin: 10px auto; /* Center button and add space */
+  display: block; /* Ensure it behaves like a block element */
+}
+
+}
+
+.placeholder button {
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px; /* Adjusted padding */
+    color: white;
+    max-width: 80%; /* Limit button width */
+    margin: 10px auto; /* Center button and add space */
+    display: block; /* Ensure it behaves like a block element */
+}
+
+.image-carousel::before,
+.image-carousel::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  background-color: yellow;
+}
+
+.image-carousel::before {
+  top: 0;
+  left: 0;
+}
+
+.image-carousel::after {
+  bottom: 0;
+  right: 0;
+  transform: rotate(90deg);
+}
+
+  
+  
