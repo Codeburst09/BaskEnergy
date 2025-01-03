@@ -12,10 +12,11 @@
   .highlighted-text {
     color: red;
     font-weight: bold;
+    font-size: 25px;
   }
   
   .products-header h2 {
-    color: #888;
+    color: #923a3a;
     font-size: 2rem;
   }
   
@@ -80,7 +81,7 @@
     border: none;
     padding: 0.8rem 2rem;
     cursor: pointer;
-    font-size: 0.5rem;
+    font-size: 1rem;
     border-radius: 5px;
   }
   

@@ -78,13 +78,36 @@ const Navbar = () => {
         </ul>
       </nav>
       <div className="top-bar">
+       
+          <a
+            href="tel:+919583745459"
+            style={{ textDecoration: "none", color: "inherit" }}
+            aria-label="Call +91 9583745459"
+          >
+            <FaPhone /> +91 9583745459
+          </a>
+        
         <span>
-          <FaPhone /> +91 9583745459
+          <a
+            href="mailto:info@baskenergy.co.in"
+            style={{ textDecoration: "none", color: "inherit" }}
+            aria-label="Send an email to info@baskenergy.co.in"
+          >
+            <FaEnvelope /> info@baskenergy.co.in
+          </a>
         </span>
         <span>
-          <FaEnvelope /> info@baskenergy.co.in
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=Hyderabad,+INDIA"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none", color: "inherit" }}
+            aria-label="View location Hyderabad, India on Google Maps"
+          >
+            📍 Hyderabad, INDIA
+          </a>
         </span>
-        <span>📍 Hyderabad, INDIA</span>
+
         <div className="social-icons">
           <FaFacebook />
           <FaTwitter />
