@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import {
   FaPhone,
   FaEnvelope,
@@ -17,6 +17,12 @@ const Navbar = () => {
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => setIsMenuOpen(false);
+
+  const navigate = useNavigate();
+  const handleNavigation = (path) => {
+    closeMenu();
+    navigate(path);
+  };
 
   return (
     <div>

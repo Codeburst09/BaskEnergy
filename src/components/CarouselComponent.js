@@ -13,7 +13,7 @@ const CarouselComponent = () => {
         {/* <p className="legend">Solar Power 1</p> */}
         <div className="placeholder">
           <h1>SUSTAINABLE ENERGY AND POWER MADE EASY</h1>
-          <p>Lorem ipsum dolor sit amet consectetur. Quis diam pretium viverra quam. Lectus aenean porttitor tellus neque vulputate commodo odio.</p>
+          <p>Simplifying the journey to clean, renewable energy solutions for a sustainable future. Empowering individuals and businesses with accessible, eco-friendly power technologies.</p>
           <button>Get in touch</button>
         </div>
       </div>
@@ -22,7 +22,7 @@ const CarouselComponent = () => {
         {/* <p className="legend">Solar Power 2</p> */}
         <div className="placeholder">
           <h1>SUSTAINABLE ENERGY AND POWER MADE EASY</h1>
-          <p>Lorem ipsum dolor sit amet consectetur. Quis diam pretium viverra quam. Lectus aenean porttitor tellus neque vulputate commodo odio.</p>
+          <p>Your guide to understanding and adopting sustainable energy systems effortlessly. Bridging the gap between innovation and everyday use for a greener tomorrow.</p>
           <button>Get in touch</button>
         </div>
       </div>
@@ -31,7 +31,8 @@ const CarouselComponent = () => {
         {/* <p className="legend">Sustainable Energy</p> */}
         <div className="placeholder">
           <h1>SUSTAINABLE ENERGY AND POWER MADE EASY</h1>
-          <p>Lorem ipsum dolor sit amet consectetur. Quis diam pretium viverra quam. Lectus aenean porttitor tellus neque vulputate commodo odio.</p>
+          <p>Making renewable energy adoption seamless and practical for everyone. Unlocking the potential of clean power to drive positive change.
+          </p>
           <button>Get in touch</button>
         </div>
       </div>
