@@ -95,6 +95,9 @@ body {
     display: block;
   }
 
+  .top-bar {
+    display: none;
+  }
   .navbar-menu {
     flex-direction: column;
     position: absolute;

@@ -83,7 +83,7 @@
 @media (max-width: 768px) {
   .placeholder p {
     color: #edede7;
-    font-size: 0.5em;
+    font-size: 11px;
 }
 .placeholder h1 {
   color: #EDDD01;
@@ -93,11 +93,18 @@
   background-color: red;
   border: none;
   border-radius: 10px;
-  padding: 5px 15px !important; /* Adjusted padding */
+  padding: 5px 10px !important; /* Adjusted padding */
   color: white;
   max-width: 80%; /* Limit button width */
   margin: 10px auto; /* Center button and add space */
   display: block; /* Ensure it behaves like a block element */
+}
+.placeholder {
+  font-size: 1em;
+  padding: 2px;
+}
+.carousel-root {
+  margin-top: 80px;
 }
 
 }
